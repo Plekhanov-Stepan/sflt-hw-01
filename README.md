@@ -7,7 +7,7 @@
 
 ## Задание 2
 
-`
+````bash
 global_defs {
     enable_script_security
 }
@@ -33,9 +33,9 @@ vrrp_instance VI_1 {
         }
 
 }
-`
+````
 
-`
+````bash
 #!/bin/bash
 if [ ! -e /var/www/html/index.html ]
 then
@@ -43,7 +43,7 @@ then
 fi
 
 curl -Is http://localhost
-`
+````
 
 <img src = "img/Screenshot_2_1.png" width=100%>
 <img src = "img/Screenshot_2_2.png" width=100%>
